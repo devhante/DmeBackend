@@ -6,4 +6,6 @@ urlpatterns = [
     path('accounts/<int:pk>/', views.account_detail),
     path('menus/', views.menu_list),
     path('menus/<int:pk>/', views.menu_detail),
+    path('favors/', views.favor_list),
+    path('favors/<int:pk>/', views.favor_detail),
 ]
